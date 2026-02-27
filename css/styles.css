@@ -1,11 +1,50 @@
 @import url("design-system.css");
+header {
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+    
+}
+
+
+h1 {
+    color: white;
+    margin-left: 140px;
+    font-size: 40px;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+    margin-top: 800px;
+    width: 150px;
+}
 
 body {
-    background-color: var(--color-primary);
-    color: var(--color-text);
+    
+    height: 90%;
+    display: flex;    /* centra vertical */
+    background-color: hsl(0, 0%, 0%);    /* opcional para que se vea bonito */
     font-family: Arial, sans-serif;
-    min-height: 100vh;
-    padding: 2rem;
+    color :white
+}
+
+.box {
+    background-color: #2d0101;
+    padding: 40px;
+    width: 800px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 55px #ff3434ef;
+    margin-right: 100px;
+}
+.opciones {background-color: #2d0101;
+    padding: 40px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 55px #ff3434ef;
+    margin-top: 300px;
 }
 
 li {
