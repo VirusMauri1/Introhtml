@@ -1,63 +1,52 @@
 @import url("design-system.css");
-header {
-    width: 60%;
-    max-width: 600px;
-    text-align: center;
-    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 h1 {
-    color: white;
-    margin-left: 140px;
+    color: var(--color-text);
     font-size: 40px;
+    font-family: 'Orbitron', sans-serif
 }
 
+h2 {
+    color: var(--color-text);
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif
+}
+
+
 footer{
-    color: gray;
+    color: var(--color-text-secundario);
     text-align: center;
-    margin-top: 800px;
-    width: 150px;
 }
 
 body {
     
-    height: 90%;
-    display: flex;    /* centra vertical */
-    background-color: hsl(0, 0%, 0%);    /* opcional para que se vea bonito */
-    font-family: Arial, sans-serif;
-    color :white
+    display: flex;    
+    background-color: var(--color-primario);    
+    font-family: 'Exo 2', sans-serif;
+    color : var(--color-text);
 }
 
-.box {
-    background-color: #2d0101;
-    padding: 40px;
-    width: 800px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 0 55px #ff3434ef;
-    margin-right: 100px;
-}
-.opciones {background-color: #2d0101;
-    padding: 40px;
-    width: 350px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 0 55px #ff3434ef;
-    margin-top: 300px;
-}
+
+
 
 li {
     margin: 1rem 0;
 }
 
 a {
-    color: var(--color-secondary);
+    color: var(--color-extra);
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s ease;
 }
 
 a:hover {
-    color: white;
+    color: var(--color-brillo);
 }
