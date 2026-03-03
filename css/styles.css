@@ -1,0 +1,52 @@
+@import url("design-system.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: var(--color-text);
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif
+}
+
+h2 {
+    color: var(--color-text);
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif
+}
+
+
+footer{
+    color: var(--color-text-secundario);
+    text-align: center;
+}
+
+body {
+    
+    display: flex;    
+    background-color: var(--color-primario);    
+    font-family: 'Exo 2', sans-serif;
+    color : var(--color-text);
+}
+
+
+
+
+li {
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--color-extra);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-brillo);
+}

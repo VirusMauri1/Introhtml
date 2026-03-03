@@ -1,0 +1,27 @@
+.layout-main {
+    display: grid;
+    grid-template-columns:  8fr 4fr;
+    gap: 6rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 5rem;
+    align-items: center;
+}
+.layout-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.box {
+    background-color: var(--color-secundario);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 55px var(--color-brillo);
+}
+.opciones {background-color: var(--color-secundario);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 55px var(--color-brillo);
+}
